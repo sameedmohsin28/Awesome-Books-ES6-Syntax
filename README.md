@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 
-  <h3><b>Awesome Books with ES6</b></h3>
+  <h3><b>Awesome Books ES6 Syntax</b></h3>
 
 </div>
 
@@ -27,9 +27,9 @@
 - [📝 License](#license)
 
 
-# 📖 Awesome Books with ES6<a name="about-project"></a>
+# 📖 Awesome Books ES6 Syntax<a name="about-project"></a>
 
-**Awesome Books with ES6** is a website for keeping a record of books.
+**Awesome Books ES6 Syntax** is a website for keeping a record of books.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -112,7 +112,7 @@ You can deploy this project using GitHub Pages.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/sameedmohsin28/Awesome-Books-with-ES6/issues).
+Feel free to check the [issues page](https://github.com/sameedmohsin28/Awesome-Books-ES6-Syntax/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -136,6 +136,6 @@ If you like this project please give me an endorsement on LinkedIn.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/sameedmohsin28/Awesome-Books-with-ES6/blob/main/LICENSE) licensed.
+This project is [MIT](https://github.com/sameedmohsin28/Awesome-Books-ES6-Syntax/blob/main/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
