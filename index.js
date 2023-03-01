@@ -1,4 +1,15 @@
-import { booksObjectArray, gettingBooksFromLocal, allBooks, BookClass } from './modules/bookclass.js';
+import {
+  booksObjectArray, gettingBooksFromLocal, allBooks, BookClass,
+} from './modules/bookclass.js';
+import {
+  addBtn, addBook,
+} from './modules/addBook.js';
+import {
+  listSection, addNewSection, contactSection, showPage,
+} from './modules/showPage.js';
+// eslint-disable-next-line no-unused-vars
+import removeBook from './modules/removeBook.js';
+import DateTime from './node_modules/luxon/src/datetime.js';
 
 if (gettingBooksFromLocal !== null) {
   gettingBooksFromLocal.forEach((element) => {
@@ -18,17 +29,11 @@ if (booksObjectArray.length === 0) {
   `;
 }
 
-import { inputBook, inputAuthor, addBtn, addBook } from './modules/addBook.js'
-  
 addBtn.addEventListener('click', addBook);
-
-import removeBook from './modules/removeBook.js';
 
 const listNav = document.querySelector('.nav-list');
 const addNewNav = document.querySelector('.nav-add-new');
 const contactNav = document.querySelector('.nav-contact');
-
-import { listSection, addNewSection, contactSection, showPage } from './modules/showPage.js';
 
 listNav.addEventListener('click', () => {
   showPage(listSection);
@@ -41,6 +46,5 @@ contactNav.addEventListener('click', () => {
 });
 
 const dateOnPage = document.querySelector('.date');
-import DateTime from './node_modules/luxon/src/datetime.js';
 const now = DateTime.now();
 dateOnPage.innerHTML = now;

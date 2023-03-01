@@ -7,6 +7,8 @@ const showPage = (pageName) => {
   addNewSection.style.display = 'none';
   contactSection.style.display = 'none';
   pageName.style.display = 'flex';
-}
+};
 
-export { listSection, addNewSection, contactSection, showPage };
+export {
+  listSection, addNewSection, contactSection, showPage,
+};

@@ -1,192 +1,191 @@
 * {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    text-decoration: none;
-    box-sizing: border-box;
-    color: black;
-  }
-  
-  .parent-div {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-  
-  header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    padding: 10px 15px;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  
-  nav {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    border: 2px solid black;
-    padding: 0 10px;
-  }
-  
-  nav ul {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  nav ul li {
-    padding: 0 10px;
-    border-right: 1px solid black;
-  }
-  
-  nav ul li:nth-last-child(1) {
-    border-right: none;
-    padding-right: 0;
-  }
-  
-  .date {
-    align-self: flex-end;
-  }
-  
-  .parent-div-for-main-contents {
-    width: 100%;
-    min-height: calc(100vh - 56px - 51px);
-    margin-top: 51px;
-    margin-bottom: 56px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  
-  .books-list-page {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-    padding: 0 10px;
-  }
-  
-  .all-books-container {
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-    border: 2px solid rgb(87, 46, 46);
-  }
-  
-  .particular-book,
-  .no-books-message {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 10px;
-    height: 30px;
-  }
-  
-  .no-books-message {
-    justify-content: center;
-  }
-  
-  .particular-book:nth-child(odd) {
-    background-color: lightgray;
-  }
-  
-  /* .horizontal-rule {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  color: black;
+}
+
+.parent-div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px 15px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid black;
+  padding: 0 10px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+}
+
+nav ul li {
+  padding: 0 10px;
+  border-right: 1px solid black;
+}
+
+nav ul li:nth-last-child(1) {
+  border-right: none;
+  padding-right: 0;
+}
+
+.date {
+  align-self: flex-end;
+}
+
+.parent-div-for-main-contents {
+  width: 100%;
+  min-height: calc(100vh - 56px - 51px);
+  margin-top: 51px;
+  margin-bottom: 56px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.books-list-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 0 10px;
+}
+
+.all-books-container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  border: 2px solid rgb(87, 46, 46);
+}
+
+.particular-book,
+.no-books-message {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+  height: 30px;
+}
+
+.no-books-message {
+  justify-content: center;
+}
+
+.particular-book:nth-child(odd) {
+  background-color: lightgray;
+}
+
+/* .horizontal-rule {
     width: 40%;
   } */
-  
-  .add-book-container {
-    display: none;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .add-a-book {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
-    width: 400px;
-  }
-  
-  .form-heading {
-    text-align: center;
-    margin-bottom: 30px;
-  }
-  
-  .add-a-book ul {
-    margin-top: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
-    width: 100%;
-  }
-  
-  .input-value-from-user {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .add-a-book ul li input {
-    width: 100%;
-    height: 30px;
-    padding-left: 10px;
-    border: 2px solid rgb(92, 92, 92);
-  }
-  
-  .add-button {
-    align-self: flex-end;
-    width: 50px;
-  }
-  
-  button {
-    box-shadow: 2px 2px;
-  }
-  
-  .contacts-section {
-    display: none;
-    flex-direction: column;
-    align-items: center;
-    gap: 40px;
-    line-height: 25px;
-    font-size: 20px;
-  }
-  
-  .contacts-section h1 {
-    margin-bottom: 30px;
-    font-size: 35px;
-  }
-  
-  .contact-details {
-    list-style: inside;
-  }
-  
-  footer {
-    position: fixed;
-    padding: 15px 0 10px 0;
-    bottom: 0;
-    width: 100%;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  footer div {
-    border: 2px solid black;
-    width: 95%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 5%;
-  }
-  
+
+.add-book-container {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add-a-book {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  width: 400px;
+}
+
+.form-heading {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.add-a-book ul {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+}
+
+.input-value-from-user {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add-a-book ul li input {
+  width: 100%;
+  height: 30px;
+  padding-left: 10px;
+  border: 2px solid rgb(92, 92, 92);
+}
+
+.add-button {
+  align-self: flex-end;
+  width: 50px;
+}
+
+button {
+  box-shadow: 2px 2px;
+}
+
+.contacts-section {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  line-height: 25px;
+  font-size: 20px;
+}
+
+.contacts-section h1 {
+  margin-bottom: 30px;
+  font-size: 35px;
+}
+
+.contact-details {
+  list-style: inside;
+}
+
+footer {
+  position: fixed;
+  padding: 15px 0 10px 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer div {
+  border: 2px solid black;
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+}

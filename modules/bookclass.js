@@ -1,6 +1,6 @@
-const booksObjectArray = []
-const gettingBooksFromLocal = JSON.parse(localStorage.getItem('localStorageBooks'))
-const allBooks = document.querySelector('.all-books-container')
+const booksObjectArray = [];
+const gettingBooksFromLocal = JSON.parse(localStorage.getItem('localStorageBooks'));
+const allBooks = document.querySelector('.all-books-container');
 
 class BookClass {
   constructor(id, bookTitle, author) {
@@ -10,4 +10,6 @@ class BookClass {
   }
 }
 
-export { booksObjectArray, gettingBooksFromLocal, allBooks, BookClass };
+export {
+  booksObjectArray, gettingBooksFromLocal, allBooks, BookClass,
+};

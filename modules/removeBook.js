@@ -1,4 +1,4 @@
-import { booksObjectArray } from "./bookclass.js";
+import { booksObjectArray } from './bookclass.js';
 
 export default window.removeBook = (bookId) => {
   const res = booksObjectArray.filter((every) => every.id !== bookId);
@@ -7,4 +7,4 @@ export default window.removeBook = (bookId) => {
   }
   localStorage.setItem('localStorageBooks', JSON.stringify(res));
   window.location.reload();
-}
+};
