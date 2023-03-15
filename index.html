@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Awesome Books</title>
+</head>
+<body>
+    <div class="parent-div">
+        <header>
+            <nav>
+                <h2 class="logo">Awesome Books</h2>
+                <ul class="nav-links-container">
+                    <li class="nav-links nav-list">List</li>
+                    <li class="nav-links nav-add-new">Add New</li>
+                    <li class="nav-links nav-contact">Contact</li>
+                </ul>
+            </nav>
+            <div class="date">
+                <!-- Fetches date from JS -->
+            </div>
+        </header>
+        <div class="parent-div-for-main-contents">
+            <section class="books-list-page">
+                <h1 class="main-heading">All Awesome Books</h1>
+                <div class="all-books-container">
+                    <!-- Code written in JS -->
+                </div>
+                <!-- <hr class="horizontal-rule"> -->
+            </section>
+            
+            <section class="add-book-container">
+                <form action="#" class="add-a-book">
+                    <h1 class="form-heading">Add a new book</h1>
+                    <ul>
+                        <li class="input-value-from-user">
+                            <label for="book-name"></label>
+                            <input type="text" id="book-name" class="input-book-name" name="book_name" placeholder="Title" required>
+                        </li>
+                        <li class="input-value-from-user">
+                            <label for="book-author"></label>
+                            <input type="text" id="book-author" class="input-book-author" name="book_author" placeholder="Author" required>
+                        </li>
+                    </ul>
+                    <button class="add-button" type="submit">Add</button>
+                </form>
+            </section>
+
+            <section class="contacts-section">
+                <h1 class="contacts-heading">
+                    Contact information
+                </h1>
+                <p>Do you have any questions or you just want to say "Hello"?<br>&nbsp;You can reach out to us!</p>
+
+                <ul>
+                    <li class="contact-details">
+                        Our e-mail: <a href="">sameedmohsin22@hotmail.com</a>
+                    </li>
+                    <li class="contact-details">
+                        Our phone number: +92-335-8107856
+                    </li>
+                    <li>
+                        Our address: Karachi, Pakistan
+                    </li class="contact-details">
+                </ul>
+            </section>
+        </div>
+
+
+        <footer>
+            <div class="footer-container">
+                <h2>Copyrights</h2>
+                <p>All rights reserved</p>
+            </div>
+        </footer>
+    </div>
+    <script type="module" src="index.js"></script>
+</body>
+</html>
